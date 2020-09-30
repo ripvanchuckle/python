@@ -23,7 +23,7 @@ if isdir == 'True':
 	print(f.read())
 	f.close()
 elif isdir == 'False':
-	dirct = input("Directory does not exist, do you wish to create it? ")
+	dirct = input("Directory does not exist, do you wish to create it? Y or N: ")
 	if dirct == 'Y':
 		os.mkdir(path)
 		file = input("Please provide a file name: ")
